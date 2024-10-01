@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720B73282CAC59E7009BB9A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B73272CAC59E7009BB9A2 /* AppDelegate.swift */; };
+		720B732A2CAC59E7009BB9A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B73292CAC59E7009BB9A2 /* SceneDelegate.swift */; };
+		720B732C2CAC59E7009BB9A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B732B2CAC59E7009BB9A2 /* ViewController.swift */; };
+		720B732F2CAC59E7009BB9A2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 720B732E2CAC59E7009BB9A2 /* Base */; };
+		720B73312CAC59E9009BB9A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720B73302CAC59E9009BB9A2 /* Assets.xcassets */; };
+		720B73342CAC59E9009BB9A2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 720B73332CAC59E9009BB9A2 /* Base */; };
+		720B733F2CAC59E9009BB9A2 /* MenaimAcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B733E2CAC59E9009BB9A2 /* MenaimAcademyTests.swift */; };
+		720B73492CAC59E9009BB9A2 /* MenaimAcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B73482CAC59E9009BB9A2 /* MenaimAcademyUITests.swift */; };
+		720B734B2CAC59E9009BB9A2 /* MenaimAcademyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B734A2CAC59E9009BB9A2 /* MenaimAcademyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		720B733B2CAC59E9009BB9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 720B731C2CAC59E7009BB9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 720B73232CAC59E7009BB9A2;
+			remoteInfo = MenaimAcademy;
+		};
+		720B73452CAC59E9009BB9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 720B731C2CAC59E7009BB9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 720B73232CAC59E7009BB9A2;
+			remoteInfo = MenaimAcademy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		720B73242CAC59E7009BB9A2 /* MenaimAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenaimAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		720B73272CAC59E7009BB9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		720B73292CAC59E7009BB9A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		720B732B2CAC59E7009BB9A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		720B732E2CAC59E7009BB9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		720B73302CAC59E9009BB9A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		720B73332CAC59E9009BB9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		720B73352CAC59E9009BB9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720B733A2CAC59E9009BB9A2 /* MenaimAcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenaimAcademyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		720B733E2CAC59E9009BB9A2 /* MenaimAcademyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenaimAcademyTests.swift; sourceTree = "<group>"; };
+		720B73442CAC59E9009BB9A2 /* MenaimAcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenaimAcademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		720B73482CAC59E9009BB9A2 /* MenaimAcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenaimAcademyUITests.swift; sourceTree = "<group>"; };
+		720B734A2CAC59E9009BB9A2 /* MenaimAcademyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenaimAcademyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		720B73212CAC59E7009BB9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720B73372CAC59E9009BB9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720B73412CAC59E9009BB9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		720B731B2CAC59E7009BB9A2 = {
+			isa = PBXGroup;
+			children = (
+				720B73262CAC59E7009BB9A2 /* MenaimAcademy */,
+				720B733D2CAC59E9009BB9A2 /* MenaimAcademyTests */,
+				720B73472CAC59E9009BB9A2 /* MenaimAcademyUITests */,
+				720B73252CAC59E7009BB9A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		720B73252CAC59E7009BB9A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				720B73242CAC59E7009BB9A2 /* MenaimAcademy.app */,
+				720B733A2CAC59E9009BB9A2 /* MenaimAcademyTests.xctest */,
+				720B73442CAC59E9009BB9A2 /* MenaimAcademyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		720B73262CAC59E7009BB9A2 /* MenaimAcademy */ = {
+			isa = PBXGroup;
+			children = (
+				720B73272CAC59E7009BB9A2 /* AppDelegate.swift */,
+				720B73292CAC59E7009BB9A2 /* SceneDelegate.swift */,
+				720B732B2CAC59E7009BB9A2 /* ViewController.swift */,
+				720B732D2CAC59E7009BB9A2 /* Main.storyboard */,
+				720B73302CAC59E9009BB9A2 /* Assets.xcassets */,
+				720B73322CAC59E9009BB9A2 /* LaunchScreen.storyboard */,
+				720B73352CAC59E9009BB9A2 /* Info.plist */,
+			);
+			path = MenaimAcademy;
+			sourceTree = "<group>";
+		};
+		720B733D2CAC59E9009BB9A2 /* MenaimAcademyTests */ = {
+			isa = PBXGroup;
+			children = (
+				720B733E2CAC59E9009BB9A2 /* MenaimAcademyTests.swift */,
+			);
+			path = MenaimAcademyTests;
+			sourceTree = "<group>";
+		};
+		720B73472CAC59E9009BB9A2 /* MenaimAcademyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				720B73482CAC59E9009BB9A2 /* MenaimAcademyUITests.swift */,
+				720B734A2CAC59E9009BB9A2 /* MenaimAcademyUITestsLaunchTests.swift */,
+			);
+			path = MenaimAcademyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		720B73232CAC59E7009BB9A2 /* MenaimAcademy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720B734E2CAC59E9009BB9A2 /* Build configuration list for PBXNativeTarget "MenaimAcademy" */;
+			buildPhases = (
+				720B73202CAC59E7009BB9A2 /* Sources */,
+				720B73212CAC59E7009BB9A2 /* Frameworks */,
+				720B73222CAC59E7009BB9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenaimAcademy;
+			productName = MenaimAcademy;
+			productReference = 720B73242CAC59E7009BB9A2 /* MenaimAcademy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		720B73392CAC59E9009BB9A2 /* MenaimAcademyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720B73512CAC59E9009BB9A2 /* Build configuration list for PBXNativeTarget "MenaimAcademyTests" */;
+			buildPhases = (
+				720B73362CAC59E9009BB9A2 /* Sources */,
+				720B73372CAC59E9009BB9A2 /* Frameworks */,
+				720B73382CAC59E9009BB9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				720B733C2CAC59E9009BB9A2 /* PBXTargetDependency */,
+			);
+			name = MenaimAcademyTests;
+			productName = MenaimAcademyTests;
+			productReference = 720B733A2CAC59E9009BB9A2 /* MenaimAcademyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		720B73432CAC59E9009BB9A2 /* MenaimAcademyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720B73542CAC59E9009BB9A2 /* Build configuration list for PBXNativeTarget "MenaimAcademyUITests" */;
+			buildPhases = (
+				720B73402CAC59E9009BB9A2 /* Sources */,
+				720B73412CAC59E9009BB9A2 /* Frameworks */,
+				720B73422CAC59E9009BB9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				720B73462CAC59E9009BB9A2 /* PBXTargetDependency */,
+			);
+			name = MenaimAcademyUITests;
+			productName = MenaimAcademyUITests;
+			productReference = 720B73442CAC59E9009BB9A2 /* MenaimAcademyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		720B731C2CAC59E7009BB9A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					720B73232CAC59E7009BB9A2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					720B73392CAC59E9009BB9A2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 720B73232CAC59E7009BB9A2;
+					};
+					720B73432CAC59E9009BB9A2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 720B73232CAC59E7009BB9A2;
+					};
+				};
+			};
+			buildConfigurationList = 720B731F2CAC59E7009BB9A2 /* Build configuration list for PBXProject "MenaimAcademy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 720B731B2CAC59E7009BB9A2;
+			productRefGroup = 720B73252CAC59E7009BB9A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				720B73232CAC59E7009BB9A2 /* MenaimAcademy */,
+				720B73392CAC59E9009BB9A2 /* MenaimAcademyTests */,
+				720B73432CAC59E9009BB9A2 /* MenaimAcademyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		720B73222CAC59E7009BB9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720B73312CAC59E9009BB9A2 /* Assets.xcassets in Resources */,
+				720B73342CAC59E9009BB9A2 /* Base in Resources */,
+				720B732F2CAC59E7009BB9A2 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720B73382CAC59E9009BB9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720B73422CAC59E9009BB9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		720B73202CAC59E7009BB9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720B732C2CAC59E7009BB9A2 /* ViewController.swift in Sources */,
+				720B73282CAC59E7009BB9A2 /* AppDelegate.swift in Sources */,
+				720B732A2CAC59E7009BB9A2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720B73362CAC59E9009BB9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720B733F2CAC59E9009BB9A2 /* MenaimAcademyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720B73402CAC59E9009BB9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720B734B2CAC59E9009BB9A2 /* MenaimAcademyUITestsLaunchTests.swift in Sources */,
+				720B73492CAC59E9009BB9A2 /* MenaimAcademyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		720B733C2CAC59E9009BB9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 720B73232CAC59E7009BB9A2 /* MenaimAcademy */;
+			targetProxy = 720B733B2CAC59E9009BB9A2 /* PBXContainerItemProxy */;
+		};
+		720B73462CAC59E9009BB9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 720B73232CAC59E7009BB9A2 /* MenaimAcademy */;
+			targetProxy = 720B73452CAC59E9009BB9A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		720B732D2CAC59E7009BB9A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720B732E2CAC59E7009BB9A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		720B73322CAC59E9009BB9A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720B73332CAC59E9009BB9A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		720B734C2CAC59E9009BB9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		720B734D2CAC59E9009BB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		720B734F2CAC59E9009BB9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H29TMDZK24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MenaimAcademy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KE.MenaimAcademy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		720B73502CAC59E9009BB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H29TMDZK24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MenaimAcademy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KE.MenaimAcademy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		720B73522CAC59E9009BB9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H29TMDZK24;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KE.MenaimAcademyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenaimAcademy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MenaimAcademy";
+			};
+			name = Debug;
+		};
+		720B73532CAC59E9009BB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H29TMDZK24;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KE.MenaimAcademyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenaimAcademy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MenaimAcademy";
+			};
+			name = Release;
+		};
+		720B73552CAC59E9009BB9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H29TMDZK24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KE.MenaimAcademyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MenaimAcademy;
+			};
+			name = Debug;
+		};
+		720B73562CAC59E9009BB9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H29TMDZK24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KE.MenaimAcademyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MenaimAcademy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		720B731F2CAC59E7009BB9A2 /* Build configuration list for PBXProject "MenaimAcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720B734C2CAC59E9009BB9A2 /* Debug */,
+				720B734D2CAC59E9009BB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720B734E2CAC59E9009BB9A2 /* Build configuration list for PBXNativeTarget "MenaimAcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720B734F2CAC59E9009BB9A2 /* Debug */,
+				720B73502CAC59E9009BB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720B73512CAC59E9009BB9A2 /* Build configuration list for PBXNativeTarget "MenaimAcademyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720B73522CAC59E9009BB9A2 /* Debug */,
+				720B73532CAC59E9009BB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720B73542CAC59E9009BB9A2 /* Build configuration list for PBXNativeTarget "MenaimAcademyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720B73552CAC59E9009BB9A2 /* Debug */,
+				720B73562CAC59E9009BB9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 720B731C2CAC59E7009BB9A2 /* Project object */;
+}
